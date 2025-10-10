@@ -66,9 +66,9 @@ logging.basicConfig(
 # Main Execution
 if __name__ == "__main__":
     # Replace with your actual MongoDB connection details
-    MONGO_URI = "mongodb://dd:123@localhost:27017/orders"
-    DB_NAME = "orders"
-    COLLECTION_NAME = "transactions"
+    MONGO_URI = "mongodb://localhost:27017"
+    DB_NAME = "YOUR_DATABASE"
+    COLLECTION_NAME = "YOUR_COLLECTION"
 
     transactions = fetch_transactions(MONGO_URI, DB_NAME, COLLECTION_NAME)
 
